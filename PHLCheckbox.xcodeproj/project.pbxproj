@@ -8,16 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		4B5781C6222192F600826A8B /* PHLCheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5781C4222192F600826A8B /* PHLCheckbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5781CD2221949100826A8B /* PHLCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5781CC2221949100826A8B /* PHLCheckbox.swift */; };
+		4B5781D82221955100826A8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5781D72221955100826A8B /* AppDelegate.swift */; };
+		4B5781DA2221955100826A8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5781D92221955100826A8B /* ViewController.swift */; };
+		4B5781DD2221955100826A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5781DB2221955100826A8B /* Main.storyboard */; };
+		4B5781DF2221955200826A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5781DE2221955200826A8B /* Assets.xcassets */; };
+		4B5781E22221955200826A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5781E02221955200826A8B /* LaunchScreen.storyboard */; };
+		4B5781E72221965A00826A8B /* PHLCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5781CC2221949100826A8B /* PHLCheckbox.swift */; };
+		4B5781EA222197B400826A8B /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5781E9222197AD00826A8B /* MaterialIcons-Regular.ttf */; };
+		4B5781EE22219EA300826A8B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5781EC22219BB600826A8B /* Utils.swift */; };
+		4B5781EF22219EA400826A8B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5781EC22219BB600826A8B /* Utils.swift */; };
+		4B5781F02221A2CF00826A8B /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5781E9222197AD00826A8B /* MaterialIcons-Regular.ttf */; };
+		FE135A3222379248968B90BB /* Pods_PHLCheckbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA91EB906A568E90547BC7C /* Pods_PHLCheckbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B5781C1222192F600826A8B /* PHLCheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PHLCheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5781C4222192F600826A8B /* PHLCheckbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHLCheckbox.h; sourceTree = "<group>"; };
 		4B5781C5222192F600826A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5781CC2221949100826A8B /* PHLCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHLCheckbox.swift; sourceTree = "<group>"; };
+		4B5781D52221955100826A8B /* PHLCheckbox-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PHLCheckbox-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5781D72221955100826A8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B5781D92221955100826A8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B5781DC2221955100826A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B5781DE2221955200826A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5781E12221955200826A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B5781E32221955200826A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5781E9222197AD00826A8B /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		4B5781EB222197FE00826A8B /* PHLCheckbox.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PHLCheckbox.podspec; sourceTree = SOURCE_ROOT; };
+		4B5781EC22219BB600826A8B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		74B6D4A8BFBD2766155F5102 /* Pods-PHLCheckbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHLCheckbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PHLCheckbox/Pods-PHLCheckbox.debug.xcconfig"; sourceTree = "<group>"; };
+		B7627184482B3EFFDF738C31 /* Pods-PHLCheckbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHLCheckbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-PHLCheckbox/Pods-PHLCheckbox.release.xcconfig"; sourceTree = "<group>"; };
+		BCA91EB906A568E90547BC7C /* Pods_PHLCheckbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHLCheckbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B5781BE222192F600826A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE135A3222379248968B90BB /* Pods_PHLCheckbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5781D22221955100826A8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,11 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D087D5F1833638C3297D552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA91EB906A568E90547BC7C /* Pods_PHLCheckbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B5781B7222192F600826A8B = {
 			isa = PBXGroup;
 			children = (
 				4B5781C3222192F600826A8B /* PHLCheckbox */,
+				4B5781D62221955100826A8B /* PHLCheckbox-Example */,
 				4B5781C2222192F600826A8B /* Products */,
+				5B31813290BA2C0F4BE6F59D /* Pods */,
+				3D087D5F1833638C3297D552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				4B5781C1222192F600826A8B /* PHLCheckbox.framework */,
+				4B5781D52221955100826A8B /* PHLCheckbox-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +92,44 @@
 		4B5781C3222192F600826A8B /* PHLCheckbox */ = {
 			isa = PBXGroup;
 			children = (
+				4B5781EB222197FE00826A8B /* PHLCheckbox.podspec */,
+				4B5781E82221978800826A8B /* Resources */,
+				4B5781CC2221949100826A8B /* PHLCheckbox.swift */,
+				4B5781EC22219BB600826A8B /* Utils.swift */,
 				4B5781C4222192F600826A8B /* PHLCheckbox.h */,
 				4B5781C5222192F600826A8B /* Info.plist */,
 			);
 			path = PHLCheckbox;
+			sourceTree = "<group>";
+		};
+		4B5781D62221955100826A8B /* PHLCheckbox-Example */ = {
+			isa = PBXGroup;
+			children = (
+				4B5781D72221955100826A8B /* AppDelegate.swift */,
+				4B5781D92221955100826A8B /* ViewController.swift */,
+				4B5781DB2221955100826A8B /* Main.storyboard */,
+				4B5781DE2221955200826A8B /* Assets.xcassets */,
+				4B5781E02221955200826A8B /* LaunchScreen.storyboard */,
+				4B5781E32221955200826A8B /* Info.plist */,
+			);
+			path = "PHLCheckbox-Example";
+			sourceTree = "<group>";
+		};
+		4B5781E82221978800826A8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B5781E9222197AD00826A8B /* MaterialIcons-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B31813290BA2C0F4BE6F59D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B6D4A8BFBD2766155F5102 /* Pods-PHLCheckbox.debug.xcconfig */,
+				B7627184482B3EFFDF738C31 /* Pods-PHLCheckbox.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B5781C9222192F600826A8B /* Build configuration list for PBXNativeTarget "PHLCheckbox" */;
 			buildPhases = (
+				3BA88B43757FDE5F0BA36381 /* [CP] Check Pods Manifest.lock */,
 				4B5781BC222192F600826A8B /* Headers */,
 				4B5781BD222192F600826A8B /* Sources */,
 				4B5781BE222192F600826A8B /* Frameworks */,
@@ -84,16 +165,38 @@
 			productReference = 4B5781C1222192F600826A8B /* PHLCheckbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4B5781D42221955100826A8B /* PHLCheckbox-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5781E42221955200826A8B /* Build configuration list for PBXNativeTarget "PHLCheckbox-Example" */;
+			buildPhases = (
+				4B5781D12221955100826A8B /* Sources */,
+				4B5781D22221955100826A8B /* Frameworks */,
+				4B5781D32221955100826A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PHLCheckbox-Example";
+			productName = "PHLCheckbox-Example";
+			productReference = 4B5781D52221955100826A8B /* PHLCheckbox-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4B5781B8222192F600826A8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Paulo Lourenço";
 				TargetAttributes = {
 					4B5781C0222192F600826A8B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					4B5781D42221955100826A8B = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -104,6 +207,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4B5781B7222192F600826A8B;
 			productRefGroup = 4B5781C2222192F600826A8B /* Products */;
@@ -111,6 +215,7 @@
 			projectRoot = "";
 			targets = (
 				4B5781C0222192F600826A8B /* PHLCheckbox */,
+				4B5781D42221955100826A8B /* PHLCheckbox-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -120,20 +225,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5781EA222197B400826A8B /* MaterialIcons-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5781D32221955100826A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5781E22221955200826A8B /* LaunchScreen.storyboard in Resources */,
+				4B5781DF2221955200826A8B /* Assets.xcassets in Resources */,
+				4B5781DD2221955100826A8B /* Main.storyboard in Resources */,
+				4B5781F02221A2CF00826A8B /* MaterialIcons-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA88B43757FDE5F0BA36381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PHLCheckbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B5781BD222192F600826A8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5781CD2221949100826A8B /* PHLCheckbox.swift in Sources */,
+				4B5781EF22219EA400826A8B /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5781D12221955100826A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5781DA2221955100826A8B /* ViewController.swift in Sources */,
+				4B5781D82221955100826A8B /* AppDelegate.swift in Sources */,
+				4B5781E72221965A00826A8B /* PHLCheckbox.swift in Sources */,
+				4B5781EE22219EA300826A8B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B5781DB2221955100826A8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5781DC2221955100826A8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B5781E02221955200826A8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5781E12221955200826A8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4B5781C7222192F600826A8B /* Debug */ = {
@@ -260,7 +434,9 @@
 		};
 		4B5781CA222192F600826A8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B6D4A8BFBD2766155F5102 /* Pods-PHLCheckbox.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.phlourenco.PHLCheckbox;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,7 +462,9 @@
 		};
 		4B5781CB222192F600826A8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7627184482B3EFFDF738C31 /* Pods-PHLCheckbox.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -308,6 +487,42 @@
 			};
 			name = Release;
 		};
+		4B5781E52221955200826A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8W67XPP2J;
+				INFOPLIST_FILE = "PHLCheckbox-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlourenco.PHLCheckbox-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B5781E62221955200826A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8W67XPP2J;
+				INFOPLIST_FILE = "PHLCheckbox-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlourenco.PHLCheckbox-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -325,6 +540,15 @@
 			buildConfigurations = (
 				4B5781CA222192F600826A8B /* Debug */,
 				4B5781CB222192F600826A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5781E42221955200826A8B /* Build configuration list for PBXNativeTarget "PHLCheckbox-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5781E52221955200826A8B /* Debug */,
+				4B5781E62221955200826A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
