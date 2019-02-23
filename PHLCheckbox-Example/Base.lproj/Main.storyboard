@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df1-47-e4Z" customClass="PHLCheckbox" customModule="PHLCheckbox_Example" customModuleProvider="target">
-                                <rect key="frame" x="153" y="50" width="69" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df1-47-e4Z" customClass="PHLCheckbox" customModule="PHLCheckbox_Example" customModuleProvider="target">
+                                <rect key="frame" x="147" y="50" width="81" height="34"/>
                                 <state key="normal" title="Checkbox"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPT-Lw-8db">
-                                <rect key="frame" x="130" y="110" width="115" height="30"/>
+                                <rect key="frame" x="130" y="114" width="115" height="30"/>
                                 <state key="normal" title="Ativar / desativar"/>
                                 <connections>
                                     <action selector="enableDisableAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ba-dU-uYC"/>

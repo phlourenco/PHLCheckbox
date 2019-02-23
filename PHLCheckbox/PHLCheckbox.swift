@@ -15,11 +15,17 @@ enum IconCode: String {
 
 class PHLCheckbox: UIButton {
     
-    var title: String?
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
+    }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        configure()
+    }
+    
+    func configure() {
         Utils.loadFonts()
         setupCheckBox(title: currentTitle)
         addTarget(self, action: #selector(clickAction), for: .touchUpInside)
